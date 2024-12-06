@@ -14,8 +14,7 @@ import Star6 from "@/public/assets/fourHalfStart.png";
 import { CiHeart } from "react-icons/ci";
 import { HiArrowSmallLeft, HiArrowSmallRight } from "react-icons/hi2";
 import { IoEyeOutline } from "react-icons/io5";
-import CarImg from "@/public/assets/car.png"
-
+import CarImg from "@/public/assets/car.png";
 
 const Data: {
   id: number;
@@ -206,7 +205,7 @@ const HeroProductsExplore = () => {
             </div>
           </div>
 
-          <div>
+          <div className="py-14">
             <div className="bg-gray-100">
               <div className="flex justify-between items-center px-2">
                 <div></div>
@@ -242,7 +241,7 @@ const HeroProductsExplore = () => {
             </div>
           </div>
 
-          <div>
+          <div className="pt-14">
             <div className="bg-gray-100">
               <div className="flex justify-between items-center px-2">
                 <div></div>
@@ -275,12 +274,11 @@ const HeroProductsExplore = () => {
                   className="max-w-[50%] sm:max-w-[40%]"
                 />
               </div>
-
-              <div>
-                <div className="border bg-black">
-                  <span className="bg-red-600 w-1 h-1"></span>
+              <div className="flex justify-start items-center gap-3">
+                <div className="border-4 border-black rounded-full">
+                  <div className="bg-red-600 rounded-full w-3 h-3"></div>
                 </div>
-                <div className="bg-red-600"></div>
+                <div className="bg-red-600 rounded-full w-3 h-3"></div>
               </div>
             </div>
           </div>
