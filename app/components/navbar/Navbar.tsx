@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { IoIosSearch } from "react-icons/io";
 import { IoMdHeartEmpty } from "react-icons/io";
@@ -23,10 +24,15 @@ const Navbar = () => {
       <nav className="flex justify-around items-center  py-7 pt-12">
         <div className="text-2xl font-semibold">Exclusive</div>
         <ul className="hidden md:flex justify-center items-center gap-8 md:text-base xl:text-lg text-xl">
-          <li>Home</li> 
+          <li>
+            <Link href="/">Home</Link>
+          </li>
           <li>Contact</li>
           <li>About</li>
-          <li>Sign Up</li>
+
+          <li>
+            <Link href="/signup">Sign Up</Link>
+          </li>
         </ul>
         <div className="flex justify-around items-center gap-10">
           <div className="flex justify-center items-center bg-gray-100 px-2">

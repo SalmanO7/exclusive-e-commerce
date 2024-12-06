@@ -10,7 +10,7 @@ const HeroSection = () => {
     <div className="w-full">
       <div className="flex justify-center items-center ">
         <div className=" hidden md:flex justify-around items-center ">
-          <div className="flex flex-col items-start justify-start md:text-[12px] lg:text-base xl:text-xl gap-3">
+          <div className="flex flex-col items-start justify-start md:text-[12px]  xl:text-base gap-3">
             <p className="flex justify-between items-center md:gap-[56px] lg:gap-7 xl:gap-10 gap-16">
               Woman’s Fashion
               <span>

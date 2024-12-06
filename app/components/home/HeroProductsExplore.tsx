@@ -217,7 +217,9 @@ const HeroProductsExplore = () => {
               </div>
             </div>
           </div>
-          <div>
+
+
+          {/* <div>
             <div className="bg-gray-100">
               <div className="flex justify-between items-center px-2">
                 <div></div>
@@ -245,7 +247,7 @@ const HeroProductsExplore = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
