@@ -3,6 +3,7 @@ import HeroSection from "../components/home/HeroSection";
 import HeroProducts from "../components/home/HeroProducts";
 import HeroCategory from "../components/home/HeroCategory";
 import HeroSellingProducts from "../components/home/HeroSellingProducts";
+import HeroProductsExplore from "../components/home/HeroProductsExplore";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
           <HeroProducts />
           <HeroCategory />
           <HeroSellingProducts />
+          <HeroProductsExplore />
         </div>
       </div>
     </>

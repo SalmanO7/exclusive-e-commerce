@@ -110,7 +110,8 @@ const HeroProducts = () => {
         {Data.map((card) => {
           return (
             <div key={card.id} className="my-10">
-              <div className="flex flex-col bg-gray-100 pt-1 sm:h-[250px] md:h-[410px] lg:h-[350px] 2xl:h-[380px]  md:px-2 px-2 xl:px-4 ">
+              <div className="flex flex-col bg-gray-100 pt-1 md:px-2 px-2 xl:px-4 ">
+              {/* sm:h-[250px] md:h-[360px] lg:h-[300px] 2xl:h-[380px] */}
                 <div className="flex justify-between items-center ">
                   <div>
                     <p className="bg-[#DB4444] text-[10px] 2xl:text-base text-white p-2 rounded-md flex justify-center">
@@ -132,7 +133,7 @@ const HeroProducts = () => {
                   <Image
                     src={card.img}
                     alt={card.title}
-                    className="px-12 md:px-5 "
+                    className="px-12 md:px-5 mt-[-20px]"
                   />
                 </div>
               </div>
@@ -148,7 +149,7 @@ const HeroProducts = () => {
                   <Image
                     src={card.stars}
                     alt={card.title}
-                    className="max-w-[50%] sm:max-w-[100%] sm:pr-40 md:pr-44 lg:pr-48 xl:pr-52"
+                    className="max-w-[50%] sm:max-w-[40%]"
                   />
                 </div>
               </div>
@@ -162,8 +163,10 @@ const HeroProducts = () => {
         </button>
       </div>
 
-      <div className="border-b py-10
-      "></div>
+      <div
+        className="border-b py-10 
+      "
+      ></div>
     </div>
   );
 };

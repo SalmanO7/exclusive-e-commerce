@@ -57,7 +57,7 @@ const Data: {
 
 const HeroSellingProducts = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-20 pb-9">
       <div className="flex items-center px-2 sm:px-5 md:px-10">
         <Image src={orangeColor} alt="Today Sales" width={20} height={40} />
         <h1 className="text-[#DB4444] text-2xl font-semibold">This Month</h1>
@@ -100,7 +100,7 @@ const HeroSellingProducts = () => {
                   <Image
                     src={card.img}
                     alt={card.title}
-                    className="px-12 md:px-10 "
+                    className="px-12 md:px-10 mt-[-50px]"
                   />
                 </div>
               </div>
@@ -116,18 +116,13 @@ const HeroSellingProducts = () => {
                   <Image
                     src={card.stars}
                     alt={card.title}
-                    className="max-w-[50%] sm:max-w-[100%] sm:pr-40 md:pr-44 lg:pr-48 xl:pr-52"
+                    className="max-w-[50%] sm:max-w-[40%]"
                   />
                 </div>
               </div>
             </div>
           );
         })}
-      </div>
-      <div className="flex justify-center items-center py-3">
-        <button className="bg-[#DB4444] text-white text-sm md:text-xl px-12 py-3 rounded-[5px]">
-          view All Products
-        </button>
       </div>
     </div>
   );
