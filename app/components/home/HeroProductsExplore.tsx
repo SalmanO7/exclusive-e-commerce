@@ -14,6 +14,8 @@ import Star6 from "@/public/assets/fourHalfStart.png";
 import { CiHeart } from "react-icons/ci";
 import { HiArrowSmallLeft, HiArrowSmallRight } from "react-icons/hi2";
 import { IoEyeOutline } from "react-icons/io5";
+import CarImg from "@/public/assets/car.png"
+
 
 const Data: {
   id: number;
@@ -96,11 +98,7 @@ const HeroProductsExplore = () => {
           </div>
         </div>
 
-
-
-
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 xl:gap-3">
           <div>
             <div className="bg-gray-100">
               <div className="flex justify-between items-center px-2">
@@ -115,13 +113,19 @@ const HeroProductsExplore = () => {
                 </div>
               </div>
               <div className="w-full flex justify-center items-center p-3">
-                <Image src={DogFoodImg} alt="Dog Food" className="w-[120px] mt-[-50px]" />
+                <Image
+                  src={DogFoodImg}
+                  alt="Dog Food"
+                  className="w-[120px] mt-[-50px]"
+                />
               </div>
             </div>
             <div>
-              <h2>Breed Dry Dog Food</h2>
+              <h2 className="text-base md:text-xl font-bold py-1 md:py-2">
+                Breed Dry Dog Food
+              </h2>
               <div className="flex justify-start items-center gap-5">
-                <p className="text-[#DB4444] font-bold">$100</p>
+                <p className="text-[#DB4444] font-bold ">$100</p>
                 <Image
                   src={Star4}
                   alt="Stars"
@@ -130,11 +134,12 @@ const HeroProductsExplore = () => {
               </div>
             </div>
           </div>
+
           <div>
             <div className="bg-gray-100">
               <div className="flex justify-between items-center px-2">
                 <div></div>
-                <div  className="flex flex-col justify-center items-center gap-1">
+                <div className="flex flex-col justify-center items-center gap-1">
                   <div className="bg-white p-1 lg:p-2 rounded-full">
                     <CiHeart className="text-sm md:text-xl lg:text-xl xl:text-xl" />
                   </div>
@@ -144,11 +149,17 @@ const HeroProductsExplore = () => {
                 </div>
               </div>
               <div className="w-full flex justify-center items-center p-3">
-                <Image src={CameraImg} alt="Dog Food" className="w-[120px] mt-[-50px]" />
+                <Image
+                  src={CameraImg}
+                  alt="Dog Food"
+                  className="w-[120px] mt-[-10px] h-[150px]"
+                />
               </div>
             </div>
             <div>
-              <h2>CANON EOS DSLR Camera</h2>
+              <h2 className="text-base md:text-xl font-bold py-1 md:py-2">
+                CANON EOS DSLR Camera
+              </h2>
               <div className="flex justify-start items-center gap-5">
                 <p className="text-[#DB4444] font-bold">$360</p>
                 <Image
@@ -163,7 +174,7 @@ const HeroProductsExplore = () => {
             <div className="bg-gray-100">
               <div className="flex justify-between items-center px-2">
                 <div></div>
-                <div  className="flex flex-col justify-center items-center gap-1">
+                <div className="flex flex-col justify-center items-center gap-1">
                   <div className="bg-white p-1 lg:p-2 rounded-full">
                     <CiHeart className="text-sm md:text-xl lg:text-xl xl:text-xl" />
                   </div>
@@ -173,11 +184,17 @@ const HeroProductsExplore = () => {
                 </div>
               </div>
               <div className="w-full flex justify-center items-center p-3">
-                <Image src={LaptopImg} alt="Dog Food" className="w-[120px] mt-[-50px]" />
+                <Image
+                  src={LaptopImg}
+                  alt="Dog Food"
+                  className="w-[120px] mt-[-30px] h-[170px]"
+                />
               </div>
             </div>
             <div>
-              <h2>ASUS Gaming Laptop</h2>
+              <h2 className="text-base md:text-xl font-bold py-1 md:py-2">
+                ASUS Gaming Laptop
+              </h2>
               <div className="flex justify-start items-center gap-5">
                 <p className="text-[#DB4444] font-bold">$700</p>
                 <Image
@@ -188,11 +205,12 @@ const HeroProductsExplore = () => {
               </div>
             </div>
           </div>
+
           <div>
             <div className="bg-gray-100">
               <div className="flex justify-between items-center px-2">
                 <div></div>
-                <div  className="flex flex-col justify-center items-center gap-1">
+                <div className="flex flex-col justify-center items-center gap-1">
                   <div className="bg-white p-1 lg:p-2 rounded-full">
                     <CiHeart className="text-sm md:text-xl lg:text-xl xl:text-xl" />
                   </div>
@@ -202,11 +220,17 @@ const HeroProductsExplore = () => {
                 </div>
               </div>
               <div className="w-full flex justify-center items-center p-3">
-                <Image src={ShoesImg} alt="Dog Food" className="w-[120px] mt-[-50px]" />
+                <Image
+                  src={ShoesImg}
+                  alt="Dog Food"
+                  className="w-[120px] mt-[-10px] h-[150px]"
+                />
               </div>
             </div>
             <div>
-              <h2>Jr. Zoom Soccer</h2>
+              <h2 className="text-base md:text-xl font-bold py-1 md:py-2">
+                Jr. Zoom Soccer
+              </h2>
               <div className="flex justify-start items-center gap-5">
                 <p className="text-[#DB4444] font-bold">$500</p>
                 <Image
@@ -218,12 +242,11 @@ const HeroProductsExplore = () => {
             </div>
           </div>
 
-
-          {/* <div>
+          <div>
             <div className="bg-gray-100">
               <div className="flex justify-between items-center px-2">
                 <div></div>
-                <div  className="flex flex-col justify-center items-center gap-1">
+                <div className="flex flex-col justify-center items-center gap-1">
                   <div className="bg-white p-1 lg:p-2 rounded-full">
                     <CiHeart className="text-sm md:text-xl lg:text-xl xl:text-xl" />
                   </div>
@@ -233,21 +256,34 @@ const HeroProductsExplore = () => {
                 </div>
               </div>
               <div className="w-full flex justify-center items-center p-3">
-                <Image src={DogFoodImg} alt="Dog Food" className="w-[120px] mt-[-50px]" />
+                <Image
+                  src={CarImg}
+                  alt="Kids Electric Car"
+                  className="w-[120px] mt-[-10px] h-[150px]"
+                />
               </div>
             </div>
             <div>
-              <h2>Breed Dry Dog Food</h2>
+              <h2 className="text-base md:text-xl font-bold py-1 md:py-2">
+                Kids Electric Car
+              </h2>
               <div className="flex justify-start items-center gap-5">
-                <p className="text-[#DB4444] font-bold">$100</p>
+                <p className="text-[#DB4444] font-bold">$960</p>
                 <Image
-                  src={Star4}
+                  src={Star5}
                   alt="Stars"
                   className="max-w-[50%] sm:max-w-[40%]"
                 />
               </div>
+
+              <div>
+                <div className="border bg-black">
+                  <span className="bg-red-600 w-1 h-1"></span>
+                </div>
+                <div className="bg-red-600"></div>
+              </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
