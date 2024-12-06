@@ -4,6 +4,7 @@ import HeroProducts from "../components/home/HeroProducts";
 import HeroCategory from "../components/home/HeroCategory";
 import HeroSellingProducts from "../components/home/HeroSellingProducts";
 import HeroProductsExplore from "../components/home/HeroProductsExplore";
+// import Cart from "../components/cart/Cart";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
           <HeroCategory />
           <HeroSellingProducts />
           <HeroProductsExplore />
+          {/* <Cart /> */}
         </div>
       </div>
     </>

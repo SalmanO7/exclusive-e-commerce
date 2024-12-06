@@ -27,7 +27,9 @@ const Navbar = () => {
           <li>
             <Link href="/">Home</Link>
           </li>
-          <li>Contact</li>
+          <li>
+            <Link href="/contact">Contact</Link>
+          </li>
           <li>About</li>
 
           <li>
@@ -45,7 +47,9 @@ const Navbar = () => {
           </div>
           <div className="text-black flex justify-center items-center gap-5 text-3xl">
             <IoMdHeartEmpty />
-            <IoCartOutline />
+            <Link href="/cart">
+              <IoCartOutline />
+            </Link>
           </div>
         </div>
       </nav>

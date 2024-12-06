@@ -1,11 +1,10 @@
 import React from "react";
-import LogOut from "../components/LogOut";
+import ContactUs from "../components/ContactUs";
 
 const page = () => {
   return (
     <>
-      <LogOut />
-      
+      <ContactUs />
     </>
   );
 };
