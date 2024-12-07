@@ -86,7 +86,7 @@ const HeroLastSection = () => {
       <div className="w-full flex flex-col sm:flex-row justify-center items-center gap-y-10 py-24">
         <div className="flex justify-center items-center flex-col">
           <div>
-            <TbTruckDelivery className="text-3xl"/>
+            <TbTruckDelivery className="text-4xl bg-black text-white"/>
           </div>
           <h2 className="text-base md:text-xl uppercase font-semibold">
             Free and fast Devlivery
