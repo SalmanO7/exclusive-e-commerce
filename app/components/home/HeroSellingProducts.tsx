@@ -13,7 +13,7 @@ import { CiHeart } from "react-icons/ci";
 import { IoEyeOutline } from "react-icons/io5";
 import Star88 from "@/public/assets/FiveStar88.png";
 import Star75 from "@/public/assets/fourStar75.png";
-import Link from "next/link";
+
 
 const Data: {
   id: number;
