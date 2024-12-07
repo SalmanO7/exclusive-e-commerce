@@ -83,7 +83,7 @@ const HeroLastSection = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col sm:flex-row justify-center items-center gap-x-5 gap-y-10 py-24">
+      <div className="w-full flex flex-col sm:flex-row justify-center items-center gap-x-10 gap-y-10 py-24">
         <div className="flex justify-center items-center flex-col">
           <div className="bg-gray-300 rounded-full p-2">
             <TbTruckDelivery className="text-4xl md:text-5xl bg-black text-white rounded-full p-2"/>
