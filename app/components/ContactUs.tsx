@@ -6,8 +6,7 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <div className=" min-h-screen">
-      {/* Breadcrumb */}
-      <div className="px-[8%] flex justify-start items-center gap-1 py-12">
+      <div className="px-[8%] flex justify-start items-center gap-1 pt-12 pb-4">
         <Link href="/" className="text-gray-400">
           Home
         </Link>
@@ -15,12 +14,9 @@ const Contact = () => {
         <span className="font-semibold">Contact us</span>
       </div>
 
-      {/* Contact Section */}
       <div className="container mx-auto py-10 px-4 md:px-10 lg:px-14">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-28 md:gap-3">
-          {/* Left Section */}
           <div className="max-[full] xl:w-1/2">
-            {/* Call To Us */}
             <div className="bg-white shadow-md p-6 ">
               <div className="flex items-center gap-4">
                 <div className="bg-[#DB4444] rounded-full p-2 text-white text-3xl">
@@ -40,7 +36,6 @@ const Contact = () => {
               <div className="border-b border-2"></div>
             </div>
 
-            {/* Write To Us */}
             <div className="bg-white shadow-md p-6 ">
               <div className="flex items-center gap-4">
                 <div className="bg-[#DB4444] rounded-full p-2 text-white text-3xl">
@@ -60,34 +55,33 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Right Section */}
           <div className="bg-white shadow-md p-6 rounded-lg">
             <form>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <input
                   type="text"
                   placeholder="Your Name *"
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-sm"
+                  className="w-full bg-gray-100 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-sm"
                 />
                 <input
                   type="email"
                   placeholder="Your Email *"
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-sm"
+                  className="w-full bg-gray-100 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-sm"
                 />
                 <input
                   type="tel"
                   placeholder="Your Phone *"
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-sm md:col-span-2"
+                  className="w-full bg-gray-100 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-sm md:col-span-2"
                 />
               </div>
               <textarea
                 placeholder="Your Message"
                 rows={6}
-                className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-red-500 mb-4 text-sm"
+                className="w-full border bg-gray-100 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-red-500 mb-4 text-sm"
               ></textarea>
               <button
                 type="submit"
-                className="bg-red-500 text-white py-3 px-6 rounded-lg w-full hover:bg-red-600 transition text-sm md:text-base"
+                className="bg-[#DB4444] text-white py-3 px-6 rounded-sm w-full md:max-w-[170px] hover:bg-white hover:text-[#DB4444]  hover:border-2 hover:border-[#DB4444]  transition text-sm md:text-base"
               >
                 Send Message
               </button>

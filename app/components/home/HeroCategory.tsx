@@ -15,12 +15,12 @@ const HeroCategory = () => {
       <div>
         <div className="flex items-center px-2 sm:px-5 md:px-10">
           <Image src={orangeColor} alt="Today Sales" width={20} height={40} />
-          <h1 className="text-[#DB4444] text-2xl font-semibold">Categories</h1>
+          <h1 className="text-[#DB4444] text-xl font-semibold">Categories</h1>
         </div>
         <div className="flex justify-between items-center px-5 md:px-10 lg:my-4 my-2">
           <div className="flex justify-center lg:text-xl lg:gap-10 2xl:gap-20 items-center ">
             <div>
-              <h1 className="text-xl md:text-2xl lg:text-xl xl:text-3xl font-bold">
+              <h1 className="text-xl md:text-2xl lg:text-xl xl:text-2xl font-bold">
                 Browse By Category
               </h1>
             </div>

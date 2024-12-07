@@ -13,6 +13,7 @@ import { CiHeart } from "react-icons/ci";
 import { IoEyeOutline } from "react-icons/io5";
 import Star88 from "@/public/assets/FiveStar88.png";
 import Star75 from "@/public/assets/fourStar75.png";
+import Link from "next/link";
 
 const Data: {
   id: number;
@@ -21,6 +22,7 @@ const Data: {
   priceReal: number;
   stars: StaticImageData;
   priceFake?: string;
+  isTrue?: boolean;
 }[] = [
   {
     id: 1,
@@ -45,6 +47,7 @@ const Data: {
     priceFake: "$170",
     priceReal: 160,
     stars: Star75,
+    isTrue: true,
   },
   {
     id: 4,

@@ -30,7 +30,9 @@ const Navbar = () => {
           <li>
             <Link href="/contact">Contact</Link>
           </li>
-          <li>About</li>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
 
           <li>
             <Link href="/signup">Sign Up</Link>
@@ -46,7 +48,9 @@ const Navbar = () => {
             <IoIosSearch className="text-3xl" />
           </div>
           <div className="text-black flex justify-center items-center gap-5 text-3xl">
-            <IoMdHeartEmpty />
+            <Link href="/wishlist">
+              <IoMdHeartEmpty />
+            </Link>
             <Link href="/cart">
               <IoCartOutline />
             </Link>

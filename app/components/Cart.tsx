@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Cart = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center pb-32">
       <div className="bg-white w-full max-w-[1200px] px-5">
         <div className="flex justify-start items-center gap-1 py-12">
           <Link href="/" className="text-gray-400">

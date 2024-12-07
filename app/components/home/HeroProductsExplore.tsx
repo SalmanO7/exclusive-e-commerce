@@ -18,6 +18,7 @@ import CarImg from "@/public/assets/car.png";
 import GamePad from "@/public/assets/game.png";
 import GreenHodie from "@/public/assets/greenHodie.png";
 import PinkCortImg from "@/public/assets/hodie.png";
+import Link from "next/link";
 
 const Data: {
   id: number;
@@ -80,13 +81,15 @@ const HeroProductsExplore = () => {
       <div className="pt-20 pb-9">
         <div className="flex items-center px-2 sm:px-5 md:px-10">
           <Image src={OrangeColor} alt="Today Sales" width={20} height={40} />
-          <h1 className="text-[#DB4444] text-2xl font-semibold">This Month</h1>
+          <h1 className="text-[#DB4444] text-2xl font-semibold">
+            Our Products
+          </h1>
         </div>
         <div className="flex justify-between items-center px-5 md:px-10 lg:my-4 my-2">
           <div className="flex justify-center lg:text-xl lg:gap-10 2xl:gap-20 items-center ">
             <div>
-              <h1 className="text-xl md:text-2xl lg:text-xl xl:text-3xl font-bold">
-                Best Selling Products
+              <h1 className="text-xl md:text-2xl lg:text-xl xl:text-2xl font-bold">
+                Explore Our Products
               </h1>
             </div>
           </div>
@@ -311,11 +314,13 @@ const HeroProductsExplore = () => {
               </h2>
               <div className="flex justify-start items-center gap-5">
                 <p className="text-[#DB4444] font-bold">$660</p>
-                <Image
-                  src={Star5}
-                  alt="Stars"
-                  className="max-w-[50%] sm:max-w-[40%]"
-                />
+                <Link href="/productdetail">
+                  <Image
+                    src={Star5}
+                    alt="Stars"
+                    className="max-w-[50%] sm:max-w-[40%]"
+                  />
+                </Link>
               </div>
               <div className="flex justify-start items-center gap-3">
                 <div className="border-4 border-black rounded-full">
@@ -407,6 +412,11 @@ const HeroProductsExplore = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center items-center py-5">
+          <button className="bg-[#DB4444] text-white text-sm md:text-xl px-12 py-3 rounded-[5px]">
+            view All Products
+          </button>
         </div>
       </div>
     </>
