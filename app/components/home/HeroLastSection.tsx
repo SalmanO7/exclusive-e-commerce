@@ -96,7 +96,7 @@ const HeroLastSection = () => {
           </p>
         </div>
         <div className="flex justify-center items-center flex-col ">
-          <div>
+          <div className="bg-gray-300 rounded-full p-2">
             <TfiHeadphoneAlt className="text-4xl md:text-5xl bg-black text-white rounded-full p-2"/>
           </div>
           <h2 className="md:text-xl uppercase font-semibold">
@@ -107,7 +107,7 @@ const HeroLastSection = () => {
           </p>
         </div>
         <div className="flex justify-center items-center flex-col">
-          <div>
+          <div className="bg-gray-300 rounded-full p-2">
             <MdOutlineGppGood className="text-4xl md:text-5xl bg-black text-white rounded-full p-2"/>
           </div>
           <h2 className="md:text-xl uppercase font-semibold">
