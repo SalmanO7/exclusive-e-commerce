@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import Image, { StaticImageData } from "next/image";
 import OrangeColor from "@/public/assets/orngeColor.png";
@@ -18,7 +20,7 @@ import CarImg from "@/public/assets/car.png";
 import GamePad from "@/public/assets/game.png";
 import GreenHodie from "@/public/assets/greenHodie.png";
 import PinkCortImg from "@/public/assets/hodie.png";
-import Link from "next/link";
+
 
 const Data: {
   id: number;
@@ -58,6 +60,7 @@ const Data: {
 ];
 
 const HeroProductsExplore = () => {
+
   return (
     <>
       <div className="bg-black text-white border-2 border-blue-500 grid grid-cols-1 md:grid-cols-2 place-items-center py-4">
@@ -308,7 +311,7 @@ const HeroProductsExplore = () => {
                 />
               </div>
             </div>
-            <Link href="/productdetail">
+            <div >
               <h2 className="text-base font-bold py-1 md:py-2">
                 GP11 USB Gamepad
               </h2>
@@ -326,7 +329,7 @@ const HeroProductsExplore = () => {
                 </div>
                 <div className="bg-red-600 rounded-full w-3 h-3"></div>
               </div>
-            </Link>
+            </div>
           </div>
           <div>
             <div className="bg-gray-100">

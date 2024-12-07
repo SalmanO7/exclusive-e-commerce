@@ -88,7 +88,7 @@ const HeroLastSection = () => {
           <div className="bg-gray-300 rounded-full p-2">
             <TbTruckDelivery className="text-4xl md:text-5xl bg-black text-white rounded-full p-2"/>
           </div>
-          <h2 className="text-base lg:text-xl uppercase font-semibold">
+          <h2 className="text-base lg:text-xl uppercase font-semibold py-2">
             Free and fast Devlivery
           </h2>
           <p className="text-[12px] md:text-sm">
@@ -99,7 +99,7 @@ const HeroLastSection = () => {
           <div className="bg-gray-300 rounded-full p-2">
             <TfiHeadphoneAlt className="text-4xl md:text-5xl bg-black text-white rounded-full p-2"/>
           </div>
-          <h2 className="lg:text-xl uppercase font-semibold">
+          <h2 className="lg:text-xl uppercase font-semibold py-2">
             24/7 customer service
           </h2>
           <p className="text-[12px] md:text-sm">
@@ -110,7 +110,7 @@ const HeroLastSection = () => {
           <div className="bg-gray-300 rounded-full p-2">
             <MdOutlineGppGood className="text-4xl md:text-5xl bg-black text-white rounded-full p-2"/>
           </div>
-          <h2 className="md:text-xl uppercase font-semibold">
+          <h2 className="lg:text-xl uppercase font-semibold py-2">
             Money Back Guarante
           </h2>
           <p className="text-[12px] md:text-sm">
