@@ -1,12 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import orangeColor from "@/public/assets/orngeColor.png";
+import { MdOutlineGppGood } from "react-icons/md";
+import { TfiHeadphoneAlt } from "react-icons/tfi";
+import { TbTruckDelivery } from "react-icons/tb";
 // import GirlBlackBgImg from "@/public/assets/womanBlackbg.png";
 // import GamePS4Img from "@/public/assets/psGaming.png";
 // import PoderImg from "@/public/assets/poder.png";
 // import PerfumImg from "@/public/assets/perfume.png";
-
-
 
 const HeroLastSection = () => {
   return (
@@ -15,10 +16,10 @@ const HeroLastSection = () => {
         <Image src={orangeColor} alt="Today Sales" width={20} height={40} />
         <h1 className="text-[#DB4444] text-xl  font-semibold">Featured</h1>
       </div>
-      <div className="flex justify-between items-center px-5 md:px-10 lg:my-4 my-2">
+      <div className="flex justify-between items-center px-5 md:px-10 lg:my-4 pb-8 my-2">
         <div>
           <h1 className="text-xl md:text-xl lg:text-xl xl:text-2xl font-bold">
-          New Arrival
+            New Arrival
           </h1>
         </div>
       </div>
@@ -81,7 +82,42 @@ const HeroLastSection = () => {
           </div>
         </div>
       </div>
-    
+
+      <div className="w-full flex flex-col sm:flex-row justify-center items-center gap-y-10 py-24">
+        <div className="flex justify-center items-center flex-col">
+          <div>
+            <TbTruckDelivery className="text-3xl"/>
+          </div>
+          <h2 className="text-base md:text-xl uppercase font-semibold">
+            Free and fast Devlivery
+          </h2>
+          <p className="text-[12px] md:text-sm">
+            Free Delivry for all orders over $140
+          </p>
+        </div>
+        <div className="flex justify-center items-center flex-col ">
+          <div>
+            <TfiHeadphoneAlt />
+          </div>
+          <h2 className="md:text-xl uppercase font-semibold">
+            24/7 customer service
+          </h2>
+          <p className="text-[12px] md:text-sm">
+            Ferindly 24/7 customer support
+          </p>
+        </div>
+        <div className="flex justify-center items-center flex-col">
+          <div>
+            <MdOutlineGppGood />
+          </div>
+          <h2 className="md:text-xl uppercase font-semibold">
+            Money Back Guarante
+          </h2>
+          <p className="text-[12px] md:text-sm">
+            We return money within 30 days
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

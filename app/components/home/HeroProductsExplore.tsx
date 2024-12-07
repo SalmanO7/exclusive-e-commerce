@@ -308,19 +308,17 @@ const HeroProductsExplore = () => {
                 />
               </div>
             </div>
-            <div>
+            <Link href="/productdetail">
               <h2 className="text-base font-bold py-1 md:py-2">
                 GP11 USB Gamepad
               </h2>
               <div className="flex justify-start items-center gap-5">
                 <p className="text-[#DB4444] font-bold">$660</p>
-                <Link href="/productdetail">
-                  <Image
-                    src={Star5}
-                    alt="Stars"
-                    className="max-w-[50%] sm:max-w-[40%]"
-                  />
-                </Link>
+                <Image
+                  src={Star5}
+                  alt="Stars"
+                  className="max-w-[50%] sm:max-w-[40%]"
+                />
               </div>
               <div className="flex justify-start items-center gap-3">
                 <div className="border-4 border-black rounded-full">
@@ -328,7 +326,7 @@ const HeroProductsExplore = () => {
                 </div>
                 <div className="bg-red-600 rounded-full w-3 h-3"></div>
               </div>
-            </div>
+            </Link>
           </div>
           <div>
             <div className="bg-gray-100">
