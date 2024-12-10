@@ -4,11 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 const SignUp = () => {
   return (
-    <div className="flex justify-stretch gap-28 pt-20">
-      <div className="w-[50%]">
+    <div className="flex justify-center items-center md:items-start  flex-col-reverse md:flex-row md:justify-stretch md:gap-10 xl:gap-28 md:pt-10 xl:pt-20">
+      <div className="flex justify-center items-center w-full md:w-[50%] pb-10">
         <Image src={PhoneCartImg} alt="Phone Cart Img" />
       </div>
-      <div className="flex flex-col pt-11">
+    <div className="flex flex-col md:-mt-10 lg:pt-11 pb-10">
         <div className="flex flex-col gap-2 py-8">
           <h1 className="text-4xl">Create an account</h1>
           <p className="">Enter your details below</p>
